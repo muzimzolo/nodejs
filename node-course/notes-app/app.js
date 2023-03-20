@@ -1,9 +1,9 @@
 // importing files
 
 // importing utils.js file
-const add = require('./utils.js')
+const add=require('./utils.js')
 // importing notes.js file
-const message = require('./notes.js')
+const message=require('./notes.js')
 // importing validator module
 const validator = require('validator')
 
@@ -23,5 +23,6 @@ console.log(validator.isEmail('muzi@gmail.com'))
 
 // validating a url - has to adhere to http//example, www.example or example.com
 console.log(validator.isURL('example.com'))
+
 
 
