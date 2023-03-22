@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/muzimzolo/nodejs#readme",
   "dependencies": {
-    "validator": "^13.9.0"
+    "chalk": "^2.4.1",
+    "validator": "^13.9.0",
+    "yargs": "^17.7.1"
   }
 }
